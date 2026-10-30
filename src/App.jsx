@@ -1,3 +1,5 @@
+import HighFive from './HighFive.jsx'
+
 const LINKEDIN_URL = 'https://www.linkedin.com/in/sagivf/'
 
 export default function App() {
@@ -7,6 +9,7 @@ export default function App() {
       <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
         LinkedIn
       </a>
+      <HighFive />
     </main>
   )
 }
